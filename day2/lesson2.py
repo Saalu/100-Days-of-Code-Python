@@ -1,7 +1,17 @@
-print('Hello!')
+# String
+print (type("123" + "45"))
 
-username = input("What is your name ?\n ")
 
-print("Hi, my is "  + username)
+# Integer = Whole number
+print (type(123 + 45))
 
-print("And this is the lenth of my name: ", len(username))
+# Large Integers
+print (type(123_45))
+
+# Floating point Number
+
+print (type(3.495))
+
+# Boolean
+print (type(True))
+print(False)
