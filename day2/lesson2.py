@@ -1,17 +1,9 @@
-# String
-print (type("123" + "45"))
+bmi = 84 / 1.65 ** 2
 
+print(bmi)
 
-# Integer = Whole number
-print (type(123 + 45))
+print(int(bmi))
 
-# Large Integers
-print (type(123_45))
+print(round(bmi))
 
-# Floating point Number
-
-print (type(3.495))
-
-# Boolean
-print (type(True))
-print(False)
+print(round(bmi, 3))
