@@ -1,8 +1,8 @@
 print("Welcome to Pizza Special\nWe have Small(S)-15 Medium(M)-$20 or Large(L)-$25 ")
 
 size = input("What pizza size do you prefer? S, M, or L: ")
-cheese = input("Do you want extra cheese? Y or N: ")
 pepperoni = input("Do you want pepperoni?  Y or N: ")
+cheese = input("Do you want extra cheese? Y or N: ")
   
 bill = 0
 # How much to pay base on sizes
@@ -18,15 +18,15 @@ elif size == "L":
 else:
     print("You typed a wrong pizza size: S-Small, M-Medium or L-Large ")
 
-
 # Add bill based on pepperoni choice
 if pepperoni == "Y":
     if size == "S":
         bill += 2
-else:
-    bill += 3 
+    else:
+        bill += 3 
 
 # Add bill based on pepperoni choice
 if cheese == "Y":
     bill += 1
 
+print(f"Your final bill is: ${bill}")
