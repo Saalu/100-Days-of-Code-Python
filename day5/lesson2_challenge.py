@@ -2,8 +2,8 @@
 import random
 
 friends = ["Ama", "Kwaku", "Yaw", "Joe", "Kate", "Manu", "Mary"]
-
+# 1nd Option
 ran_num = random.randint(0, 6)
-
-index_friends = friends[ran_num]
-print(index_friends)
+print(friends[ran_num])
+# 2nd Option
+# print(random.choice(friends))
